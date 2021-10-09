@@ -22,3 +22,28 @@ div {
 #title {
     background-color: brown;
 }
+
+/*use sparingly the id selectors */
+
+/* styles grouping selector */
+
+/* 
+what happen when two groups share some of their style declarations?
+
+read and unread selectors share thwo properties so we can group these selector as comma-separated list
+*/
+/*
+.read {
+    color:orangered;
+    background-color: orchid;
+}
+.unread {
+    color:orangered;
+    background-color: orchid;
+}
+*/
+.read,
+.unread {
+    color:orangered;
+    background-color: orchid;
+}
