@@ -44,6 +44,14 @@ read and unread selectors share thwo properties so we can group these selector a
 */
 .read,
 .unread {
-    color:orangered;
+    color:white;
     background-color: orchid;
 }
+
+/* styles chaining selector */
+
+.subsection.header{
+    color:rgb(214, 50, 50);
+}
+
+/* .subsection.header selects any element that has subsection and header classes */
