@@ -1,0 +1,24 @@
+/* styles  type selector */
+
+div {
+    color:blue;
+}
+/*a type selector will select all element of the given type,in this case is the div element*/
+
+
+/* styles class selector */
+
+.alert-text{
+    color: red;
+}
+
+/* select all elements with the given class, which is just an atributte */
+
+/* class atribbute aloud us to add multiple classes to a single element with a space between */
+
+
+/* styles id selector */
+
+#title {
+    background-color: brown;
+}
