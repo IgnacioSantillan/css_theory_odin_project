@@ -55,3 +55,17 @@ read and unread selectors share thwo properties so we can group these selector a
 }
 
 /* .subsection.header selects any element that has subsection and header classes */
+
+
+/* styles descendant combinator */
+
+.ancestor .contents {
+    color:palegreen;
+    font-size: 30px;
+}
+
+/* 
+doesnt select the contents that its outside of the nested in ancestor.The child will only be selected
+if it has an ancestor with the class ancestor no mather how deep its nested.
+*/
+
