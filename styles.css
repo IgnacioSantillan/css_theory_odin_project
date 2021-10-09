@@ -69,3 +69,41 @@ doesnt select the contents that its outside of the nested in ancestor.The child 
 if it has an ancestor with the class ancestor no mather how deep its nested.
 */
 
+
+                            /* PROPERTIES TO GET STARTED WITH */
+p {
+    /* hex example: */
+  color: #1100ff;
+    /* rgb example: */
+  color: rgb(100, 0, 127);
+    /* hsl example: */
+  color: hsl(15, 82%, 56%);
+
+  font-family: 'Courier New', "Times New Roman", monospace;
+
+  font-size: 22px;
+
+  text-align:center;
+}
+
+/* 
+--------------------------------------- Typography Basics------------------------------------------ 
+apply the last change in this example we have 3 sets of colours, then will only use the last one because the
+especificality? 
+    
+font-family: when we use font-family we select a list of values that is going to use the element "font family name" or
+generic family font with out the quoutes
+font-size: size of font in pixels
+font-weight: affect the boldness of text from 0 to 1000 --> 700 is the equivalent of bold
+text-align: will align text horizontally within an element
+*/
+img {
+    height: auto;
+    width: 500px;
+}
+/*
+----------------------------------------Image Height and Width-------------------------------------
+When these values aren’t included, if an image takes longer to load than the rest of the page contents,
+the image won’t take up any space on the page at first, but will suddenly cause a drastic shift of the 
+other page contents once it does load in
+*/
