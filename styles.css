@@ -107,3 +107,26 @@ When these values aren’t included, if an image takes longer to load than the r
 the image won’t take up any space on the page at first, but will suddenly cause a drastic shift of the 
 other page contents once it does load in
 */
+
+/*
+-----------------------------------------------Box Model-------------------------------------------
+ These boxes can have other boxes in them and can sit alongside one another
+
+*/
+*  {
+    /*border: 2px solid red;*/
+    font-size: 30px;
+
+  }
+
+
+.box_one{
+    background-color: violet;
+    border: 0px;
+    padding: 20px;
+    margin: 20px;
+}
+.box_two{
+    background-color: blueviolet;
+    border: 0px;
+}

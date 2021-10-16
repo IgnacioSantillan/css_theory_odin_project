@@ -1,66 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1> Basic Theory of CSS</h1>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Basic Theory of CSS</h1>
     <!-- type selector theory-->
 
     <div>Hello World</div>
     <div>Hello Again</div>
     <p>Hi ...</p>
     <div>OKay Bye</div>
-    <hr>
+    <hr />
     <!-- class selector theory-->
 
-    <div class="alert-text">
-        Please agree to our terms of service!
-    </div>
-    <hr>
+    <div class="alert-text">Please agree to our terms of service!</div>
+    <hr />
     <!-- id selector theory-->
 
     <div id="title">My Awesome 90's page</div>
-    <hr>
+    <hr />
     <!-- group selector theory-->
 
-    <div class="read"> My awesome read class selector </div>
-    <hr>
+    <div class="read">My awesome read class selector</div>
+    <hr />
     <div class="unread">My awesome unread class selector</div>
 
     <!-- chaining selector theory-->
-    <hr>
+    <hr />
     <div>
-        <div class="subsection header">Latest Post</div>
-        <div class="subsection preview">This is a preview for a post might go.</div>
+      <div class="subsection header">Latest Post</div>
+      <div class="subsection preview">
+        This is a preview for a post might go.
+      </div>
     </div>
-    <hr>
+    <hr />
     <!-- descendant combinator theory-->
-    <div class="ancestor"><!-- A -->firts
-        <div class="contents"><!-- B -->second
-            <div class="contents"><!-- c -->third
-                <div class="contents">four
-                    <div class="contents">five
-                        <div class="contents">n
-
-                        </div>
-                    </div>
-                </div>
+    <div class="ancestor">
+      <!-- A -->firts
+      <div class="contents">
+        <!-- B -->second
+        <div class="contents">
+          <!-- c -->third
+          <div class="contents">
+            four
+            <div class="contents">
+              five
+              <div class="contents">n</div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
-    <div class="contents">four</div><!-- D -->
-    <hr>
+    <div class="contents">four</div>
+    <!-- D -->
+    <hr />
 
     <!-- Properties to start -->
     <!--Tipography Basics example-->
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-    <hr>
-    <img src="src/pexels-andrea-piacquadio-3777931.jpg" alt="picture of andrea">
-</body>
+    <hr />
+    <img
+      src="src/pexels-andrea-piacquadio-3777931.jpg"
+      alt="picture of andrea"
+    />
+    <div class="box_one">Text One</div>
+    <div class="box_two">Text Two</div>
+  </body>
 </html>
