@@ -111,22 +111,25 @@ other page contents once it does load in
 /*
 -----------------------------------------------Box Model-------------------------------------------
  These boxes can have other boxes in them and can sit alongside one another
-
+in alternative includes in te size of the box the padding and margin in the px count
 */
+
+  
 *  {
-    /*border: 2px solid red;*/
+    border: 2px solid green;
     font-size: 30px;
-
   }
+/* content box has 150 width + 40 padding +5 border px  */
 
-
-.box_one{
-    background-color: violet;
-    border: 0px;
-    padding: 20px;
+.box{
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
     margin: 20px;
+    width: 150px;
+    height: 150px;
 }
-.box_two{
-    background-color: blueviolet;
-    border: 0px;
+/* width - padding - border */ 
+.alternative{
+    box-sizing: border-box;
 }
